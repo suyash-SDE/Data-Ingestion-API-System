@@ -1,0 +1,21 @@
+{
+    "name": "data-ingestion-api",
+    "version": "1.0.0",
+    "description": "Data Ingestion API with batch processing and priority queue",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "jest --detectOpenHandles"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "supertest": "^6.3.3"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
